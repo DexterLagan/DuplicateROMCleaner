@@ -309,6 +309,14 @@ Contributions are welcome! This PowerShell script is perfect for:
 - Add appropriate error handling
 - Document new parameters and features
 
+## ✅ Testing
+An integration test verifies the Python prototype using a temporary directory tree.
+Run the test and capture its log:
+```bash
+python test_duplicate_cleaner.py > test_log.txt
+```
+The generated `test_log.txt` demonstrates successful deletion of duplicates and compression of orphan files.
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

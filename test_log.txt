@@ -1,0 +1,18 @@
+
+Processing folder: /tmp/dup_test_aqfmjr3d
+
+Processing folder: /tmp/dup_test_aqfmjr3d/folder2
+  Duplicate found: othertest1.txt -> othertest1.zip
+    [DELETED]
+
+Processing folder: /tmp/dup_test_aqfmjr3d/folder3
+
+Processing folder: /tmp/dup_test_aqfmjr3d/folder1
+  Orphan: test2.txt
+    [COMPRESSED]
+  Orphan: test1.txt
+    [COMPRESSED]
+  Orphan: test3.txt
+    [COMPRESSED]
+
+All checks passed.
