@@ -1,6 +1,7 @@
 # Duplicate ROM Cleaner (PowerShell)
 
 A powerful PowerShell script for finding and removing duplicate files on any disk drive. This command-line tool identifies files that exist both as compressed `.zip` archives and as standalone files with other extensions, helping you reclaim storage space while maintaining data integrity. Perfect for ROM collections, media archives, and automated cleanup workflows.
+A cross-platform Python prototype (`duplicate-cleaner-py.py`) is included for CRC-based duplication checks and runs with Python 3.8 or newer.
 
 ## 🎯 Features
 
@@ -84,6 +85,13 @@ Create `CleanROMs.bat`:
 @echo off
 powershell.exe -ExecutionPolicy Bypass -File "duplicate-cleaner.ps1" -Execute -CompressOrphans
 pause
+```
+
+### Option 4: Python Prototype
+```bash
+python duplicate-cleaner-py.py PATH_TO_DRIVE_OR_FOLDER [-e] [-c]
+# Example: process drive D with deletion and compression
+python duplicate-cleaner-py.py D:\\ -e -c
 ```
 
 ## 📖 Usage Instructions
